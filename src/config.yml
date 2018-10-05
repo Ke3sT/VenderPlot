@@ -1,0 +1,147 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                    ####
+##        #    #  # # #  # # #  # # #  # # #        ####
+###       #  #    #      #      #        #         ####
+####      # #     # # #  # # #  # # #    #        #####
+###       #  #    #      #          #    #         ####
+##        #   #   # # #  # # #  # # #    #          ###
+#                   ( ͡° ͜ʖ ͡°)                      ##
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+#Caso necessite de algum suporte com o plugin, me contate no Discord
+#Meu discord: KeesT#9024
+
+#Sua chave de licença. Entre em contato comigo caso não saiba a sua.
+Licenca: 'insira sua chave de licença aqui'
+#A versão atual em que o plugin se encontra. Embora raramente lembro de alterar isso.
+Versao: '1.0.1'
+
+Mensagens:
+  AnuncioColocouAVenda:
+    - '         &a[Plot de @dono@] '
+    - '     &bEsta vendendo o proprio plot'
+    - '&bQuem quiser comprar, so usar /plot comprar dentro'
+    - '&bPreco do plot: @preco@'
+    - ''
+    - '&7(Esta mensagem é mostrada somente para quem esta dentro do plot)'
+  AnuncioComprouPlot:
+    - '        &a[Plot de @dono@] '
+    - '&b@jogador@ comprou o plot de @dono@'
+    - '&bO custo do plot foi de @preco@'
+    - ''
+    - '&7(Esta mensagem é mostrada somente para quem esta dentro do plot)'
+  AnuncioCancelouVenda:
+    - '        &a[Plot de @dono@] '
+    - '&b@dono@ cancelou a venda do plot dele;('
+    - ''
+    - '&7(Esta mensagem é mostrada somente para quem esta dentro do plot)'
+  VoceFoiLerdo: '&cPlot: Alguem ja apertou no confirmar enquanto vc ficou no menu olhando :('
+  PlotSendoComprado: '&cPlot: Este plot já esta sendo comprado por outro jogador.'
+  RemoveuPlotDaVenda: '&cPlot: O dono do plot removeu o plot da venda. Compra cancelada.'
+  CancelouCompra: '&cPlot: Voce cancelou a compra do plot.'
+  NaoEstaMundoPlots: '&cPlot: Voce precisa estar no mundo dos plots para vender ou comprar plots.'
+  VendaConcluida: '&aPlot: Parabéns, voce vendeu seu plot a @jogador@ por @preco@'
+  PlotAdquirido: '&aPlot: Parabéns, voce comprou este plot.'
+  RealizandoCompra: '&aPlot: Realizando a compra do plot de @dono@ por @preco@....'
+  RealizandoVenda: '&aPlot: @jogador@ esta comprando seu plot. Realizando a venda...'
+  PlotExcluido: '&cPlot: Este plot foi excluido. Voce nao pode mais compra-lo.'
+  ErroAoComprar: '&cPlot: A compra foi cancela para evitar problemas.'
+  PossuiMuitosPlots: '&cPlot: Voce nao pode comprar este plot pois ja atingiu o maximo de plots.'
+  MoneyInsuficiente: '&cPlot: Voce nao tem dinheiro para comprar este plot.'
+  NaoPodeComprarProprioPlot: '&cPlot: Voce nao pode comprar seu proprio plot, duente'
+  PlotNaoEstaAVenda: '&cPlot: Este plot não esta a venda.'
+  PlotNaoClaimadoComprar: '&cPlot: Este plot não pertence a ninguém.'
+  NaoEstaEmUmPlotComprar: '&cPlot: Para comprar um plot, esteja dentro dele!'
+  CancelouVenda: '&cPlot: Voce cancelou a venda do seu plot.'
+  VoceNaoBotouAVenda: '&cPlot: Este seu plot atual não esta sendo vendido.'
+  PlotNaoClaimadoCancelarVenda: '&cPlot: Este plot não pertence a ninugém. Voce só pode cancelar a venda de seus proprios plots'
+  PlotNaoESeuCancelarVenda: '&cPlot: Este plot não é seu, ele pertence a @jogador@. Voce so pode cancelar a venda de seus proprios plots'
+  NaoEstaEmUmPlotCancelarVenda: '&cPlot: Voce precisa estar dentro do plot que esta vendendo para cancelar.'
+  StatusPodeComprar:
+    - '&aVoce possui dinheiro suficiente para comprar.'
+    - '&aPreco do plot: &n&l@preco@&a.'
+    - '&aSeu saldo atual: &n&l@saldoatual@&a.'
+    - ''
+    - '&aApós a compra, voce ficará com &n&l@saldorestante@&a de dinheiro.'
+    - ''
+    - '&7&l(Clique aqui para efetuar acompra)'
+  StatusNaoPodeComprar:
+    - '&cVoce nao possui dinheiro suficiente para comprar.'
+    - '&cPreco do plot: &n&l@preco@&c.'
+    - '&cSeu saldo: &n&l@saldoatual@&c.'
+    - ''
+    - '&cConsiga mais &n@saldonecessario@&c de money para comprar.'
+  JaVendendo: '&ePlot: Voce ja colocou esse seu plot a venda. O preco dele atualmente é @preco@'
+  ColocouAVenda: '&aPlot: Agora seu plot está a venda por @preco@. Para parar de venda, use /plot cancelarvenda'
+  ValorMuitoAlto: '&cPlot: O preco digitado é muito ALTO. O preco deve ser entre @minimo@ - @maximo@'
+  ValorMuitoBaixo: '&cPlot: O valor digitado é muito baixo. O preco deve ser no minimo @minimo@ '
+  DigiteValorValido: '&cPlot: Digite um preco valido. Exemplo: 500, 100000'
+  DigiteValor: '&cPlot: Digite o valor por qual voce quer vender o plot.'
+  PlotNaoClaimado: '&cPlot: Este plot não pertence a ninguém. Voce so pode vender seus proprios plots.'
+  PlotNaoESeu: '&cPlot: Este plot pertence ao jogador @jogador@. Voce so pode vender seus plots.'
+  NaoEstaEmUmPlot: '&cPlot: Voce precisar estar dentro do seu plot que deseja vender.'
+  SemPermissao: '&cPlot: Voce nao possui permissao para isso'
+  ComandoInexistente: '&cComando inexistente.'
+  Reload: '&aA configuracao da venda de plots foi recarregada.'
+  ComandoNormal:
+    - ''
+  ComandoAdmin:
+    - '- /venderplot reload - Recarrega a configuracao'
+
+#Abaixo vocë pode customizar e configurar as opçôes que o plugin oferece.
+Configuracoes:
+  #Ativa a opcao de venda de plot?
+  AtivarVenda: true
+  #Ativar efeito de sons?
+  EfeitoDeSom: true
+  #Caso deixa true, se alguem usar algum comando de admin, o plugin ira simplesmente ignorar sem mandar 
+  #Nenhuma mensagem
+  NaoMostrarMensagemSemPermissao: true
+  #Valor minimo para por um plot a venda
+  ValorMinimo: 1
+  #Valor maximo do plot
+  ValorMaximo: 600
+  #Avisar todos os jogadores dentro do plot quando o plot for comprado
+  AvisarPlayersNoPlotAoComprarPlot: true
+  #Avisar todos os jogadores dentro do plot que ele esta em venda
+  AvisarPlayersNoPlotAoPorVender: true
+  #Avisar todos os jogadores no plot quando a venda do plot for cancelada?
+  AvisarPlayersNoPlotAoCancelarVenda: true
+  #Teleportar os jogadores pra fora do plot quando um novo dono comprar ele. Somente ele ficara no plot.
+  TeleportarJogadoresPraForaAoComprar: true
+  #Se ativado, quando um dono compra um plot de outro, membros confiaveis, negados, flags do plot, tudo será definido para o padrão
+  RemoverTrustedFlagsEtc: true
+  #A log irá salvar todos as vendas de plot
+  AtivarLog: true
+GUI:
+  InfoDaVendaPlot:
+    Titulo: '&bInformacoes sobre o Plot'
+    Tamanho: 27
+    ItensNoGui:
+      ConfirmarCompra:
+        ID: '160:5'
+        Nome: '&a&lCONFIRMAR'
+        Slot: 14
+        Lore:
+          - ''
+          - '@status@'
+          - ''
+      CancelarCompra:
+        ID: '160:14'
+        Slot: 12
+        Nome: '&c&lCANCELAR'
+        Lore:
+          - ''
+          - '&eClique aqui para cancelar a compra do plot'
+      Informacoes:
+        ID: '397:3'
+        Slot: 4
+        Nome: '&bInformacoes sobre esse PLOT'
+        Lore:
+          - ''
+          - '&aPreco: [@preco@]'
+          - '&aDono: [@donodoplot@]'
+          - ''
+        SkinHead: '@donodoplot@'
+        
+

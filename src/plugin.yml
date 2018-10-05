@@ -1,0 +1,10 @@
+name: KeesTVenderPlot
+main: com.keest.venderplot.Principal
+version: 1.0.1
+description: Venda e compra de plots entre jogadores
+author: KeesT
+depends: [PlotSquared]
+commands:
+    venderplot:
+        description: 'Comandos gerais do plugin.'
+        aliases: bp
